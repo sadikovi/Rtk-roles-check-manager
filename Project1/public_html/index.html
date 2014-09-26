@@ -1,0 +1,80 @@
+<script src="/analytics/rtk-roles-check-manager/js/jquery-1.7.1.min.js"></script>
+<span style="font-weight:bold;font-family: Tahoma,Sans-serif;font-size: 11px;">Форма для просмотра "user roles" в BI</span>
+<div style="margin-top:10px;"><div>
+<div>
+	<div>
+		<label style="font-family: Tahoma,Sans-serif;font-size: 11px;" for="rrcm_text_field">Введите логин пользователя в BI (для множественности значений - используйте в качестве разделителя ";")</label><div style="margin-top:10px;"><div>
+		<input style="width:200px" class="promptTextField" id="rrcm_text_field" type="textfield" value="" />
+	</div>
+	<div style="margin-top:10px;"><div>
+	<div>
+		<input class="button" id="rrcm_run_button" type="button" onclick="getUserRoles();" value="Определить" />
+	</div>
+</div>
+<div id="rrcm_result"></div>
+<script language="javascript">
+	function getUserRoles() {
+		var text = document.getElementById("rrcm_text_field");
+		if (text) {
+			if (text.value) {
+				var link = "/analytics/rtk-roles-check-manager/mainservlet?user=" + text.value;
+				console.log(link);
+				$.getJSON(link, function(data) {
+					getResults(data, "rrcm_result");
+					text.value="";
+					console.log(data);
+				});
+			} else {
+				alert("Введите логин пользователя!");
+				return false;
+			}
+		} else {
+			alert("text field is undefined");
+			return false;
+		}
+		return false;
+	}
+	function getResults(data, id) {
+		var a = data.info;
+		var mainDiv = document.getElementById(id);
+		
+		if (!mainDiv) {
+			mainDiv = document.createElement("div");
+			mainDiv.id = id;
+		}
+		
+		mainDiv.innerHTML = "";
+		
+		if (a.length > 0) {
+			for (i=0;i<a.length;i++) {
+				var div = document.createElement("div");
+				div.id = "rrcm_info" + i + "62345";
+				div.innerHTML = a[i].user;
+				var rolesDiv = document.createElement("div");
+				rolesDiv.id = "rrcm_info_roles" + i + "62345";
+				rolesDiv.style.marginLeft = "20px";
+				
+				var table = document.createElement("table");
+				var tbody = document.createElement("tbody");
+				
+				var b = a[i].roles;
+				
+				for (j=0;j<b.length;j++) {
+					var tr = document.createElement("tr");
+					var td = document.createElement("td");
+					td.innerHTML = b[j].role;
+					
+					tr.appendChild(td);
+					
+					tbody.appendChild(tr);
+				}
+				table.appendChild(tbody);
+				rolesDiv.appendChild(table);
+				div.appendChild(rolesDiv);
+				mainDiv.appendChild(div);
+			}
+		}
+		
+		return false;
+	}
+</script>

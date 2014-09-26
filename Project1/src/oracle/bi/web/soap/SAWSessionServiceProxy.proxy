@@ -1,0 +1,572 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="XmlViewService.wsdl"/>
+      <url path="SaveResultSet.java"/>
+      <url path="MaintenanceModeResult.java"/>
+      <url path="ACL.java"/>
+      <url path="WriteObjectsResult.java"/>
+      <url path="CopyItemResult.java"/>
+      <url path="GetGlobalPrivilegeACLResult.java"/>
+      <url path="Import.java"/>
+      <url path="UpdateGlobalPrivilegeACL.java"/>
+      <url path="ExecuteXMLQuery.java"/>
+      <url path="CatalogItemsFilter.java"/>
+      <url path="GetSessionEnvironment.java"/>
+      <url path="Logon.java"/>
+      <url path="NameValueArrayPair.java"/>
+      <url path="ExecuteSQLQuery.java"/>
+      <url path="ErrorInfo.java"/>
+      <url path="OverrideType.java"/>
+      <url path="GetSessionEnvironmentResult.java"/>
+      <url path="GetSessionVariablesResult.java"/>
+      <url path="SASubjectAreaDetails.java"/>
+      <url path="StartPage.java"/>
+      <url path="ExecuteIBotNowResult.java"/>
+      <url path="CopyItem.java"/>
+      <url path="MoveItemResult.java"/>
+      <url path="UpdateACLMode.java"/>
+      <url path="GetGroupsResult.java"/>
+      <url path="IsMember.java"/>
+      <url path="ReportHTMLOptions.java"/>
+      <url path="GetCounts.java"/>
+      <url path="WriteListFiles.java"/>
+      <url path="GetConditionCustomizableReportElements.java"/>
+      <url path="ReadObjects.java"/>
+      <url path="CreateLink.java"/>
+      <url path="GetSubItemsParams.java"/>
+      <url path="SessionEnvironment.java"/>
+      <url path="GetGroups.java"/>
+      <url path="GetPromptedColumns.java"/>
+      <url path="ApplyReportParamsResult.java"/>
+      <url path="DescribeColumnResult.java"/>
+      <url path="GetMembers.java"/>
+      <url path="GetAccountsResult.java"/>
+      <url path="ObjectFactory.java"/>
+      <url path="GenerateReportSQL.java"/>
+      <url path="Impersonate.java"/>
+      <url path="GetItemInfoResult.java"/>
+      <url path="GetAccounts.java"/>
+      <url path="UpgradeXMLResult.java"/>
+      <url path="UpdateGlobalPrivilegeACLResult.java"/>
+      <url path="SendMessageResult.java"/>
+      <url path="MoveIBotResult.java"/>
+      <url path="WriteIBotResult.java"/>
+      <url path="ItemInfoType.java"/>
+      <url path="NameValuePair.java"/>
+      <url path="IsMemberResult.java"/>
+      <url path="SetItemPropertyResult.java"/>
+      <url path="ApplyReportDefaultsResult.java"/>
+      <url path="ReadObjectsResult.java"/>
+      <url path="SegmentationOptions.java"/>
+      <url path="GetHeadersHtmlResult.java"/>
+      <url path="UpdateCatalogItemACLParams.java"/>
+      <url path="PurgeCache.java"/>
+      <url path="ReportHTMLLinksMode.java"/>
+      <url path="GetJobInfo.java"/>
+      <url path="DeleteItem.java"/>
+      <url path="TemplateInfoInstance.java"/>
+      <url path="GetPermissionsResult.java"/>
+      <url path="SAWException.java"/>
+      <url path="LogonexResult.java"/>
+      <url path="ImportError.java"/>
+      <url path="GetCurUser.java"/>
+      <url path="EvaluateCondition.java"/>
+      <url path="WriteListFilesResult.java"/>
+      <url path="ImpersonateexResult.java"/>
+      <url path="ForgetAccountsResult.java"/>
+      <url path="SendMessage.java"/>
+      <url path="SAWSessionService.java"/>
+      <url path="ExecuteIBotNow.java"/>
+      <url path="MaintenanceMode.java"/>
+      <url path="GetPrivilegesStatus.java"/>
+      <url path="GetGlobalPrivilegeACL.java"/>
+      <url path="EvaluateInlineConditionResult.java"/>
+      <url path="WriteObjects.java"/>
+      <url path="UpdateCatalogItemACL.java"/>
+      <url path="ClearQueryCache.java"/>
+      <url path="ImpersonateResult.java"/>
+      <url path="SubscribeResult.java"/>
+      <url path="GetPromptedFilters.java"/>
+      <url path="SADataType.java"/>
+      <url path="SetItemProperty.java"/>
+      <url path="GetHtmlForReportResult.java"/>
+      <url path="ReportParams.java"/>
+      <url path="CopyItem2.java"/>
+      <url path="DescribeTableResult.java"/>
+      <url path="TemplateInfo.java"/>
+      <url path="RemoveFolder.java"/>
+      <url path="SATable.java"/>
+      <url path="AccessControlToken.java"/>
+      <url path="DeleteIBotResult.java"/>
+      <url path="PromptedColumnInfo.java"/>
+      <url path="DeleteIBot.java"/>
+      <url path="UpdateCatalogItemACLResult.java"/>
+      <url path="DescribeTable.java"/>
+      <url path="CancelQueryResult.java"/>
+      <url path="SAWSessionServiceSoap.java"/>
+      <url path="SAColumn.java"/>
+      <url path="GetPromptedFiltersResult.java"/>
+      <url path="JobStats.java"/>
+      <url path="MarkForReplicationResult.java"/>
+      <url path="GetPermissions.java"/>
+      <url path="LogonParameter.java"/>
+      <url path="ImportFlags.java"/>
+      <url path="XMLQueryExecutionOptions.java"/>
+      <url path="GetSubjectAreasResult.java"/>
+      <url path="AddReportToPage.java"/>
+      <url path="ErrorDetailsLevel.java"/>
+      <url path="RemoveFolderResult.java"/>
+      <url path="SAWSessionParameters.java"/>
+      <url path="JoinGroups.java"/>
+      <url path="ReportRef.java"/>
+      <url path="GetGlobalPrivileges.java"/>
+      <url path="MarkForReplication.java"/>
+      <url path="PurgeLog.java"/>
+      <url path="Account.java"/>
+      <url path="GetHtmlForPageWithOneReportResult.java"/>
+      <url path="PathMapEntry.java"/>
+      <url path="SAWLocale.java"/>
+      <url path="GetHtmlForReport.java"/>
+      <url path="FetchNext.java"/>
+      <url path="Logonex.java"/>
+      <url path="GetSessionVariables.java"/>
+      <url path="ExportFlags.java"/>
+      <url path="GetJobInfoResult.java"/>
+      <url path="Subscribe.java"/>
+      <url path="CreateFolder.java"/>
+      <url path="GetCountsResult.java"/>
+      <url path="TreeNodePath.java"/>
+      <url path="XMLQueryOutputFormat.java"/>
+      <url path="CreateLinkResult.java"/>
+      <url path="SetItemAttributes.java"/>
+      <url path="DescribeSubjectArea.java"/>
+      <url path="PurgeCacheResult.java"/>
+      <url path="QueryResults.java"/>
+      <url path="Unsubscribe.java"/>
+      <url path="WriteIBot.java"/>
+      <url path="Impersonateex.java"/>
+      <url path="LogonResult.java"/>
+      <url path="UpdateACLParams.java"/>
+      <url path="PrepareCache.java"/>
+      <url path="SetOwnership.java"/>
+      <url path="GetSubItems.java"/>
+      <url path="ExportResult.java"/>
+      <url path="ForgetAccounts.java"/>
+      <url path="SAWSessionServiceSoapClient.java"/>
+      <url path="MoveItem.java"/>
+      <url path="SetBridge.java"/>
+      <url path="UpgradeXML.java"/>
+      <url path="CatalogObject.java"/>
+      <url path="VoidType.java"/>
+      <url path="GetHeadersHtml.java"/>
+      <url path="FileInfo.java"/>
+      <url path="EvaluateInlineCondition.java"/>
+      <url path="CancelJobResult.java"/>
+      <url path="GetHtmlForPageWithOneReport.java"/>
+      <url path="GetSubItemsResult.java"/>
+      <url path="Variable.java"/>
+      <url path="SetOwnershipResult.java"/>
+      <url path="GetItemInfo.java"/>
+      <url path="DeleteResultSetResult.java"/>
+      <url path="KeepAlive.java"/>
+      <url path="ReadObjectsReturnOptions.java"/>
+      <url path="GetCurUserResult.java"/>
+      <url path="EvaluateConditionResult.java"/>
+      <url path="CancelJob.java"/>
+      <url path="FetchNextResult.java"/>
+      <url path="SASubjectArea.java"/>
+      <url path="SaveResultSetResult.java"/>
+      <url path="SATableDetails.java"/>
+      <url path="PrepareCacheResult.java"/>
+      <url path="Export.java"/>
+      <url path="JoinGroupsResult.java"/>
+      <url path="PathMap.java"/>
+      <url path="DescribeColumn.java"/>
+      <url path="LeaveGroups.java"/>
+      <url path="RenameAccounts.java"/>
+      <url path="GetGlobalPrivilegesResult.java"/>
+      <url path="StartPageParams.java"/>
+      <url path="AddReportToPageResult.java"/>
+      <url path="Privilege.java"/>
+      <url path="CreateFolderResult.java"/>
+      <url path="SetBridgeResult.java"/>
+      <url path="Logoff.java"/>
+      <url path="package.html"/>
+      <url path="MoveIBot.java"/>
+      <url path="ExecuteSQLQueryResult.java"/>
+      <url path="StartPageResult.java"/>
+      <url path="ArrayOfGUIDs.java"/>
+      <url path="GetCommonBodyHtmlResult.java"/>
+      <url path="DeleteResultSet.java"/>
+      <url path="ClearQueryCacheResult.java"/>
+      <url path="GetSubItemsFilter.java"/>
+      <url path="ExecuteXMLQueryResult.java"/>
+      <url path="GetSubjectAreas.java"/>
+      <url path="RenameAccountsResult.java"/>
+      <url path="package-info.java"/>
+      <url path="SetItemAttributesResult.java"/>
+      <url path="AuthResult.java"/>
+      <url path="LeaveGroupsResult.java"/>
+      <url path="GetPromptedColumnsResult.java"/>
+      <url path="ImportResult.java"/>
+      <url path="PurgeLogResult.java"/>
+      <url path="GetPrivilegesStatusResult.java"/>
+      <url path="DeleteItemResult.java"/>
+      <url path="PasteItem2Result.java"/>
+      <url path="AggregationRule.java"/>
+      <url path="PasteItem2.java"/>
+      <url path="LogoffResult.java"/>
+      <url path="GetMembersResult.java"/>
+      <url path="GenerateReportSQLResult.java"/>
+      <url path="ApplyReportParams.java"/>
+      <url path="EndPageResult.java"/>
+      <url path="JobInfo.java"/>
+      <url path="UnsubscribeResult.java"/>
+      <url path="CopyItem2Result.java"/>
+      <url path="CancelQuery.java"/>
+      <url path="DescribeSubjectAreaResult.java"/>
+      <url path="ItemInfo.java"/>
+      <url path="EndPage.java"/>
+      <url path="GetCommonBodyHtml.java"/>
+      <url path="ApplyReportDefaults.java"/>
+      <url path="GetConditionCustomizableReportElementsResult.java"/>
+      <url path="KeepAliveResult.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MTOM"/>
+      <list n="LOCAL_FILES"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+         </hash>
+      </hash>
+      <list n="PROXY_CLIENTS">
+         <url path="SAWSessionServiceSoapClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <url n="PROXY_ORIGINAL_WSDL_URL" path="SecurityService.wsdl"/>
+      <hash n="PROXY_PORTS">
+         <hash n="SAWSessionServiceSoap">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="oracle.bi.web.soap.SAWSessionServiceSoap"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="SAWSessionServiceSoap"/>
+            <hash n="OPERATIONS">
+               <hash n="getCurUser">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSessionEnvironment">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="getSessionVariables">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="impersonate">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="impersonateex">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="keepAlive">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="logoff">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="logon">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="logonex">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS"/>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="msk-02-orabits.tsretail.ru" port="9704" path="/analytics/saw.dll" query="SoapImpl=nQSessionService"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="SAWSessionService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="urn://oracle.bi.webservices/v6"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../Project1.jpr"/>
+      <list n="PROXY_WSDL_IMPORT_LIST"/>
+      <url n="PROXY_WSDL_URL" path="XmlViewService.wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BOUND_PORT_TYPE" v="{urn://oracle.bi.webservices/v6}SAWSessionServiceSoap"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}SAWSessionService"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#logon"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="java.lang.String.logon.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#logonex"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bi.web.soap.AuthResult.logonex.java.lang.String.java.lang.String.oracle.bi.web.soap.SAWSessionParameters"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#logoff"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="void.logoff.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#keepAlive"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="void.keepAlive.java.util.List&lt;java.lang.String>"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#getCurUser"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="java.lang.String.getCurUser.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#getSessionEnvironment"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bi.web.soap.SessionEnvironment.getSessionEnvironment.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#getSessionVariables"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="java.util.List&lt;java.lang.String>.getSessionVariables.java.util.List&lt;java.lang.String>.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#impersonate"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="java.lang.String.impersonate.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BD_SOAP_ACTION" v="#impersonateex"/>
+                     <value n="BD_SOAP_INPUT_USE" v="1"/>
+                     <value n="BD_SOAP_OUTPUT_USE" v="1"/>
+                     <value n="BD_SOAP_STYLE" v="1"/>
+                     <value n="BOUND_OPERATION" v="oracle.bi.web.soap.AuthResult.impersonateex.java.lang.String.java.lang.String.java.lang.String.oracle.bi.web.soap.SAWSessionParameters"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="7a4155e7-0142-1000-8007-0af3788a4852"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="SAWSessionServiceSoap"/>
+               <value n="PORT_BINDING_NAME" v="{urn://oracle.bi.webservices/v6}SAWSessionService"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.lang.String.logon.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bi.web.soap.AuthResult.logonex.java.lang.String.java.lang.String.oracle.bi.web.soap.SAWSessionParameters"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.logoff.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.keepAlive.java.util.List&lt;java.lang.String>"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.lang.String.getCurUser.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bi.web.soap.SessionEnvironment.getSessionEnvironment.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.util.List&lt;java.lang.String>.getSessionVariables.java.util.List&lt;java.lang.String>.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.lang.String.impersonate.java.lang.String.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="oracle.bi.web.soap.AuthResult.impersonateex.java.lang.String.java.lang.String.java.lang.String.oracle.bi.web.soap.SAWSessionParameters"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="msk-02-orabits.tsretail.ru" port="9704" path="/analytics/saw.dll" query="SoapImpl=nQSessionService"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}XmlViewServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.XmlViewServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.XmlViewServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}SecurityServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.SecurityServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.SecurityServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}WebCatalogServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.WebCatalogServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.WebCatalogServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}SAWSessionServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.SAWSessionServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.SAWSessionServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}JobManagementServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.JobManagementServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.JobManagementServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}ReplicationServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.ReplicationServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.ReplicationServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}ConditionServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.ConditionServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.ConditionServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}ReportEditingServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.ReportEditingServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.ReportEditingServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}HtmlViewServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.HtmlViewServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.HtmlViewServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}MetadataServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.MetadataServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.MetadataServiceSoap"/>
+            </hash>
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{urn://oracle.bi.webservices/v6}IBotServiceSoap"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="oracle.bi.web.soap.IBotServiceSoapImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="oracle.bi.web.soap.IBotServiceSoap"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../../Project1.jpr"/>
+         <value n="WS_CREATE_ONEWAY_OPERATIONS" v="true"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="urn://oracle.bi.webservices/v6"/>
+         <value n="WS_URI" v="SAWSessionService"/>
+         <url n="WS_WSDL_FILE" path="XmlViewService.wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+   </hash>
+</jdevws:WebServiceProxy>
